@@ -1,0 +1,39 @@
+import About from "./components/About"
+import React from 'react';
+import Fcheader from "./components/Fcheader";
+// import Button from './components/Button';
+// import Grandchild from "./components/Grandchild";
+// import Header from './components/Header'
+// import Skills from './components/Skills'
+
+
+function app() {
+  // let age = 22
+  // let dob = 2002
+  // let mass = 62
+  // const data ={
+  //   welcome:"Welcome to the react course",
+  //   title:"Student",
+  //   Dob:"14-06-2002"
+  // }
+
+  // const sayHi = () => {
+  //   alert("Hi I am Hello Button");
+  // }
+  // const sayBye = () => {
+  //   alert("Bye I am Bye Button");
+  // }
+  return <div>
+
+    {/* <About age={age} dob={dob} mass={mass} /> */}
+    {/* <Skills skills={['html','css','js','reacr']} />
+    <Skills skills={['WebDEv','Python','Cpp','Java']} />
+    <Header data={data} /> */}
+    {/* <Button text="say Hi" onClick={sayHi} />
+    <Button text="say Bye" onClick={sayBye} /> */}
+    {/* <Grandchild age={age} dob={dob} mass={mass} /> */}
+
+    <Fcheader/>
+  </div>
+}
+export default app
